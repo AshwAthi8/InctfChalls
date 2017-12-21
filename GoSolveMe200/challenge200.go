@@ -3,8 +3,7 @@ package main
 
 import (
 		
-		"fmt"	
-		
+		"fmt"			
 )
 
 type Integer struct{
@@ -39,14 +38,9 @@ if input.number < 9999999 {
 	}else{
 
 		printflag(input,store)
+	     }
 	}
-	
-
-
-	}
-
-}
-
+      }
 }
 
 func calc(input Integer, check Integer) int{
